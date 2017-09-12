@@ -49,7 +49,7 @@ body
     margin-top: 70px;
 }a
 {
-    -webkit-transition: all .2s                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;transition: all .2s;text-decoration: none;color: #000;
+    -webkit-transition: all .2s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;transition: all .2s;text-decoration: none;color: #000;
 }a:hover
 {
     color: #134db6;
@@ -181,7 +181,7 @@ body
     display: inline-block;
 }.social li:hover
 {
-    cursor: pointer                                                                                                                                ;cursor: hand;
+    cursor: pointer                                                                                                                                                                                                                                                                                                                                                                                                                                ;cursor: hand;
 
     opacity: 1;
 }.instagram a
@@ -434,7 +434,44 @@ body
     position: absolute;z-index: -1;display: block;width: 266px;height: 75px;margin-top: -50px;margin-left: 100px;
 
     background-image: url('images/seagulls.svg');
-}@media screen and (max-width:768px)
+}
+#cyeBlackMaskLayer
+{
+    position: fixed;
+    z-index: -2147483648;
+
+    width: 1980px;
+    height: 1080px;
+
+    background-color: rgb(19, 19, 19);
+}
+#cye-workaround-body
+{
+    position: absolute;
+    z-index: -2147483646;
+    top: 0;
+    left: 0;
+
+    width: 1292px;
+    height: 2332px;
+
+    background: none 0 0 / auto repeat scroll padding-box border-box rgb(255, 255, 255);
+}
+
+#cye-workaround-body-image
+{
+    position: absolute;
+    z-index: -2147483645;
+    top: 0;
+    left: 0;
+
+    width: 1292px;
+    height: 2332px;
+
+    background: none 0 0 / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width:768px)
 {
     .mobile-header-fix
     {
@@ -509,5 +546,39 @@ body
     }.column .right
     {
         width: 100%;padding-left: 0;
+    }
+    #cyeBlackMaskLayer
+    {
+        position: fixed;
+        z-index: -2147483648;
+
+        width: 100%;
+        height: 1080px;
+
+        background-color: rgb(19, 19, 19);
+    }
+    #cye-workaround-body
+    {
+        position: absolute;
+        z-index: -2147483646;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 2332px;
+
+        background: none 0 0 / auto repeat scroll padding-box border-box rgb(255, 255, 255);
+    }
+    #cye-workaround-body-image
+    {
+        position: absolute;
+        z-index: -2147483645;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 2332px;
+
+        background: none 0 0 / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);
     }
 }
