@@ -49,7 +49,7 @@ body
     margin-top: 70px;
 }a
 {
-    -webkit-transition: all .2s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;transition: all .2s;text-decoration: none;color: #000;
+    -webkit-transition: all .2s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;transition: all .2s;text-decoration: none;color: #000;
 }a:hover
 {
     color: #134db6;
@@ -181,7 +181,7 @@ body
     display: inline-block;
 }.social li:hover
 {
-    cursor: pointer                                                                                                                                                                                                                                                                                                                                                                                                                                ;cursor: hand;
+    cursor: pointer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;cursor: hand;
 
     opacity: 1;
 }.instagram a
@@ -469,6 +469,18 @@ body
     height: 2332px;
 
     background: none 0 0 / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);
+}
+.downalad-links
+{
+    font-family: 'avenir-heavy';
+    font-size: .90em;
+
+    cursor: pointer;
+    text-decoration: underline;
+    letter-spacing: .1em;
+
+
+    color: #134db6;
 }
 
 @media screen and (max-width:768px)
