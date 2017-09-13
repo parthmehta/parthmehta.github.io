@@ -30,21 +30,17 @@
           <h3>Thank you for your interest!</h3>
           <br/>
           <br/>
-          <h6 class="downalad-links" onclick='Download("/PARTH_MEHTA_RESUME.pdf")'>Download as PDF</h6>
-          <h6 class="downalad-links" onclick='Download("/PARTH_MEHTA_RESUME.docx")'>Download as Word document</h6>
+          <h6 class="downalad-links"><a download href='/PARTH_MEHTA_RESUME.pdf'>Download as PDF</a></h6>
+          <h6 class="downalad-links"><a download href='/PARTH_MEHTA_RESUME.docx'>Download as Word document</a>
+          </h6>
           <br/>
           <label class="label"><a href="http://parthmehta.xyz">Visit Home</a></label>
         </div>
 
-        <iframe id="my_iframe" style="display:none;"></iframe>
       </div>
     </div>
 
 </body>
-<script>
-  function Download(url) {
-    document.getElementById('my_iframe').src = url;
-  };
-</script>
+
 
 </html>
