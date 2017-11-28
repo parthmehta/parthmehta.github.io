@@ -165,7 +165,7 @@ body
 }.sunset
 {
     display: block;width: 100%;height: 500px;margin: -100px 0 32px 0;background-image: url(images/sunset.svg);background-repeat: no-repeat;background-position: center;
-}.notebook
+}.work
 {
     margin: -250px 0 0 0;
 }.sailboat
@@ -548,7 +548,7 @@ body
         padding: 100px 0 100px 0;
 
         background-image: none;
-    }.notebook
+    }.work
     {
         margin: 0;
     }#homepage .page-title
