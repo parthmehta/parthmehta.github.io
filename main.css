@@ -25,6 +25,10 @@ body
 }@font-face
 {
     font-family: 'Avenir-Heavy';font-weight: 700;src: url('fonts/avenir_heavy.woff2') format('woff2');
+}
+@font-face
+{
+    font-family: 'Avenir-Book';font-weight: normal;src: url('fonts/avenir_book.woff2') format('woff2');
 }h1
 {
     font-family: 'ArgentCF-DemiBold';
